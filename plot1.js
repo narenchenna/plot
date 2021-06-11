@@ -1,6 +1,5 @@
 google.charts.load('current',{packages:['corechart']});
 google.charts.setOnLoadCallback(drawchart);
-
 function drawchart() {
    b = document.getElementById("header-user-chips");
    b.insertAdjacentHTML(
